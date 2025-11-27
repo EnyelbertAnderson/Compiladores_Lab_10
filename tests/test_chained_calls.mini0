@@ -1,20 +1,31 @@
-fun crearArray(): []int
-    arr: []int
-    arr = new [5] int
-    arr[0] = 100
-    arr[1] = 200
-    return arr
-end
-
 fun sumar(x: int, y: int): int
     return x + y
 end
 
+fun multiplicar(a: int, b: int): int
+    return a * b
+end
+
+fun obtenerValor(): int
+    return 42
+end
+
 fun main(): int
     resultado: int
+    temp: int
     
-    resultado = crearArray()[0]
-    resultado = sumar(10, 20) + sumar(5, 3)
+    
+    resultado = sumar(10, 20)
+    
+    
+    resultado = sumar(sumar(1, 2), sumar(3, 4))
+    
+    
+    temp = multiplicar(2, 3)
+    resultado = sumar(temp, obtenerValor())
+    
+    
+    resultado = sumar(multiplicar(2, 3), multiplicar(4, 5))
     
     return resultado
 end
