@@ -1,16 +1,12 @@
 fun main(): int
     matriz: [][]int
-    i: int
+    cubo: [][][]int
+    numeros: []int
+    x: int
     
-    matriz = new [3] []int
-    matriz[0] = new [4] int
-    matriz[1] = new [4] int
-    matriz[2] = new [4] int
+    x = 10
+    x = 25
+    x = 0xFF
     
-    matriz[0][0] = 10
-    matriz[1][2] = 25
-    matriz[2][3] = 0xFF
-    
-    i = matriz[1][2]
-    return i
+    return x
 end
