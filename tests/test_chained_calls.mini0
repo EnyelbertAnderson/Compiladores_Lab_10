@@ -1,0 +1,20 @@
+fun crearArray(): []int
+    arr: []int
+    arr = new [5] int
+    arr[0] = 100
+    arr[1] = 200
+    return arr
+end
+
+fun sumar(x: int, y: int): int
+    return x + y
+end
+
+fun main(): int
+    resultado: int
+    
+    resultado = crearArray()[0]
+    resultado = sumar(10, 20) + sumar(5, 3)
+    
+    return resultado
+end
