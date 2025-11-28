@@ -1,0 +1,11 @@
+fun main(): int
+    mensaje: string
+    nombre: string
+    
+    mensaje = "Hola\nMundo"
+    nombre = "Mini-0"
+    mensaje = "Tab:\taqui"
+    mensaje = "Comillas: \"hola\""
+    
+    return 0
+end
