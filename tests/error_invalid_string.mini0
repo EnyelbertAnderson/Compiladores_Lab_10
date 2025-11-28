@@ -1,0 +1,5 @@
+fun main(): int
+    s: string
+    s = "hola sin cerrar
+    return 0
+end
